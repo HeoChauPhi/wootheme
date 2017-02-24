@@ -1,0 +1,6 @@
+<h2 class="block-title">This is sidebar</h2>
+{#
+{% for key, sidebar in sidebar_widget %}
+  {{acfwidget('acf_sidebar_flexible_fields', 'sidebar_widget-' ~ key )}}
+{% endfor %}
+#}
